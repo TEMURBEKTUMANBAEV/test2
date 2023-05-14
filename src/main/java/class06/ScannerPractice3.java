@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ScannerPractice3 {
     public static void main(String[] args) {
 
-    
+
     //write a program for login functionality
     //asks a user to input username
     //and password
