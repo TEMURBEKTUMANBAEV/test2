@@ -13,7 +13,7 @@ class Bank {
     }
 }
 
-public class ChaseBank extends Bank{
+class ChaseBank extends Bank{
     @Override
     void displayRateOfInterest(){
         System.out.println("Child rate of interest - ChaseBank");

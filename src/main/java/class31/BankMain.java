@@ -6,7 +6,7 @@ public class BankMain {
         ChaseBank chiragCB = new ChaseBank();
         CitiBank chiragCiti = new CitiBank();
 
-        Paypal chiragPaypal = new Paypal();
+        PayPal chiragPaypal = new PayPal();
 
         chiragPaypal.displayRateOfInterest(chiragCB);
         chiragPaypal.displayRateOfInterest(chiragCiti);
