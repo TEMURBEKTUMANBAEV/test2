@@ -1,4 +1,33 @@
 package class31;
+class Bank {
+    void withdraw() {
+        System.out.println("Parent Withdraw");
+    }
 
-public class Bank {
+    void deposit() {
+        System.out.println("Parent deposit");
+    }
+
+    void displayRateOfInterest(){
+        System.out.println("Parent rate of interest");
+    }
 }
+
+public class ChaseBank extends Bank{
+    @Override
+    void displayRateOfInterest(){
+        System.out.println("Child rate of interest - ChaseBank");
+    }
+
+    void takeQuickLoan(){
+        System.out.println("Child Take quick loan");
+    }
+}
+
+class CitiBank extends Bank {
+    @Override
+    void displayRateOfInterest() {
+        System.out.println("Child rate of interest - CitiBank");
+    }
+}
+
